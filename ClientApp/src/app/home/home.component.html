@@ -1,0 +1,15 @@
+<div  class="main">
+  <div class="row1">
+    <img id="joe"src="assets/img/joe.png" /><img id="jane"src="assets/img/jane.png" />
+    <div class="row2">
+      <p (click)="clickP()">{{res}}</p>
+      <div *ngIf="show==true">
+        <ul *ngFor="let i of sequence[2].choices">
+          <li (click)="clickChoose(i)">{{i.display}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</div>

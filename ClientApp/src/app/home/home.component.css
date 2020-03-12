@@ -1,0 +1,59 @@
+.main {
+  background-image: url(../../assets/img/background.jpg);
+  height: 450px;
+  background-size: 100% 100%;
+}
+.row1 {
+  display: block;
+  float: left;
+  height: 400px;
+  width:100%;
+  background-size: inherit;
+}
+.row2 {
+  background-color: blue;
+  height: auto;
+  width: 98%;
+  border: 2px solid white;
+  margin: 10px;
+  margin-top: 100px;
+  
+}
+img {
+  width: 200px;
+  height: 200px;
+  
+}
+#jane {
+  float: right;
+  animation: mySconed 2s infinite;
+}
+#joe {
+  animation: myfirst 2s infinite;
+}
+@keyframes myfirst {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes mySconed {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
